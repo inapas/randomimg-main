@@ -1,0 +1,19 @@
+*{
+    box-sizing: content-box;
+    align-items: center;
+    text-align: center;
+}
+
+#rodyti{
+    display: none;
+}
+
+#images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
