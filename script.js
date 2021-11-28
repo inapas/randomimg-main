@@ -27,16 +27,15 @@ function rodyti(){
         randomizeEl.style.marginBottom = "5px"
         rodytiEl.style.marginTop = "5px"
        
-        
         document.getElementById("show-btn").innerHTML = "Hide"
      }
-    
+
         randomizeEl.addEventListener('click', randomas) 
         function randomas(){
             images.innerHTML = " "
             imgArray.sort(function(){ return 0.1 - Math.random()})
             for (let i = 0; i < imgArray.length; i++) {
-            images.innerHTML +=`<img src="img/${imgArray[i]}">`
+            images.innerHTML += `<img src="img/${imgArray[i]}">`
             }
         }
      }
