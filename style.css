@@ -1,17 +1,41 @@
 *{
     box-sizing: content-box;
-    align-items: center;
     text-align: center;
+    justify-content: center;
+   
 }
-
 #rodyti{
     display: none;
 }
-
 #images{
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
+img{
+    width: 350px;
+    height: 250px;
+}
+body{
+    margin: 0 300px;
+    height: 100vh;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+button{
+    background-color:#008CBA;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 22px;
+    transition-duration: 0.2s;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: blue;
+}
+
+
+
 
 
 
